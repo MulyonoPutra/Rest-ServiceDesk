@@ -19,7 +19,6 @@ public class Report implements Serializable {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  @NotNull
   @Column(name = "title", nullable = false)
   private String title;
 
@@ -38,7 +37,6 @@ public class Report implements Serializable {
   @Column(name = "images_content_type", nullable = false)
   private String imagesContentType;
 
-  @NotNull
   @Column(name = "location", nullable = false)
   private String location;
 

@@ -17,15 +17,12 @@ public class Institution implements Serializable {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  @NotNull
   @Column(name = "instance_name", nullable = false)
-  private String instanceName;
+    private String instanceName;
 
-  @NotNull
   @Column(name = "address", nullable = false)
   private String address;
 
-  @NotNull
   @Column(name = "contact_number", nullable = false)
   private String contactNumber;
 
