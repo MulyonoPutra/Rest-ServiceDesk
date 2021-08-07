@@ -61,7 +61,7 @@
     "status": 404,
     "error": "Not Found",
     "path": "/api/report"
-}
+    }
     ```
     
   OR
