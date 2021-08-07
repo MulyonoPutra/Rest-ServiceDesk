@@ -25,7 +25,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `   
+    **Content:** 
 ```json
     {
         "id": 2,
@@ -53,13 +53,17 @@
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
-    **Content:** `{
+    **Content:** 
+    
+    ```json
+    {
     "timestamp": "2021-07-31T16:37:02.728+00:00",
     "status": 404,
     "error": "Not Found",
     "path": "/api/report"
-}`
-
+}
+    ```
+    
   OR
 
   * **Code:** 401 UNAUTHORIZED <br />
