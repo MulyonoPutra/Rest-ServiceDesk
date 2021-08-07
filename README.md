@@ -25,7 +25,8 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `    
+    **Content:** `   
+```json
     {
         "id": 2,
         "title": "Pengaduan Kesehatan",
@@ -46,7 +47,8 @@
             "address": "",
             "contactNumber": ""
         }
-    }`
+    }
+```
  
 * **Error Response:**
 
